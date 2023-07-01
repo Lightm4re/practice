@@ -5,8 +5,6 @@ start = int(input("Введите начальное значение диапа
 end = int(input("Введите конечное значение диапазона: "))
 
 num = [random.randint(start, end) for i in range(length)]
-print("Список чисел: ")
-print(num)
+print("Список чисел: \n", num)
 aver = lambda numbers: sum(numbers) / len(numbers)
-print ("Среднее значение списка: ")
-print(aver(num))
+print("Среднее значение списка: \n", aver(num))
