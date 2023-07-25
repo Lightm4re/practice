@@ -7,4 +7,4 @@ def get_largest_permutation(num):
 
 num = int(input("Введите число: "))
 largest_permutation = get_largest_permutation(num)
-print("Наибольшее число, полученное путем перестановки цифр числа", num, ":", largest_permutation)
+print("Наиб. число, при перестановки цифр", num, ":", largest_permutation)
