@@ -1,7 +1,7 @@
 import csv
 
-start_year = input("Enter the start year: ")
-end_year = input("Enter the end year: ")
+start_year = input("Введите левую границу (год) поиска: ")
+end_year = input("Введите правую границу (год) поиска: ")
 
 try:
     start_year = int(start_year)
