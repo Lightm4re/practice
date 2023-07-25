@@ -6,6 +6,7 @@ def isprime(n):
             return False
     return True
 
+
 k = int(input("Введите конечное число: "))
 numbers = [num for num in range(2, k) if not isprime(num)]
 print(numbers)

@@ -7,4 +7,4 @@ end = int(input("Введите конечное значение диапазо
 num = [random.randint(start, end) for i in range(length)]
 print("Список чисел: \n", num)
 sqr = [i*i for i in num]
-print ("Список квадратов чисел: \n", sqr)
+print("Список квадратов чисел: \n", sqr)
