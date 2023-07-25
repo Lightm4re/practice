@@ -26,6 +26,6 @@ combinations = find_combinations(nums, target_sum)
 if len(combinations) == 0:
     print("Нет комбинаций, сумма которых равна заданному числу.")
 else:
-    print("Уник. комбинации чисел, сумма которых равна данному числу:")
+    print("Уник. комбин. чисел, сумма которых равна данному числу:")
     for combination in combinations:
         print(combination)
