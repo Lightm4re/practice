@@ -4,6 +4,7 @@ def find_combinations(nums, target_sum):
     find_combinations_helper(nums, target_sum, 0, combination, result)
     return result
 
+
 def find_combinations_helper(nums, target_sum, start_index, combination, result):
     if sum(combination) == target_sum:
         result.append(combination[:])
@@ -12,6 +13,7 @@ def find_combinations_helper(nums, target_sum, start_index, combination, result)
         combination.append(nums[i])
         find_combinations_helper(nums, target_sum, i + 1, combination, result)
         combination.pop()
+
 
 nums = []
 n = int(input("Введите количество чисел: "))

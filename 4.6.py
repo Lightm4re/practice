@@ -11,6 +11,7 @@ def rot13(string):
         encoded_string += encoded_char
     return encoded_string
 
+
 text = input("Введите строку: ")
 encoded_text = rot13(text)
 print("Закодированная строка:", encoded_text)

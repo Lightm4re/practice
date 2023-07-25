@@ -6,12 +6,14 @@ def is_prime(n):
             return False
     return True
 
+
 def find_primes(start, end):
     primes = []
     for num in range(start, end + 1):
         if is_prime(num):
             primes.append(num)
     return primes
+
 
 start = int(input("Введите начало диапазона: "))
 end = int(input("Введите конец диапазона: "))

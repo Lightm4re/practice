@@ -1,4 +1,6 @@
-def find_all_paths(graph, start, end, path=[]):
+def find_all_paths(graph, start, end, path=None):
+    if path is None:
+        path = []
     path = path + [start]
 
     if start == end:
@@ -14,6 +16,7 @@ def find_all_paths(graph, start, end, path=[]):
             for new_path in new_paths:
                 paths.append(new_path)
     return paths
+
 
 graph = {
     'A': ['B', 'C'],
